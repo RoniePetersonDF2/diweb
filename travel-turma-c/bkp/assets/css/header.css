@@ -1,0 +1,37 @@
+header {
+  background-color: #131a1f;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  margin-left: 3rem;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background-color: #dcdcdc;
+  color: #131a1f;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none; 
+}
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-right: 3rem;
+}
+header ul li {
+  margin: 0 1.5rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: #dcdcdc;
+  font-weight: 700;
+}
+header ul li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #dcdcdc;
+}
