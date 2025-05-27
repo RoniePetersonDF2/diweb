@@ -22,7 +22,6 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     margin:0 5rem;
-    border: 1px solid #fff;
 }
 header ul li {
     list-style: none;
