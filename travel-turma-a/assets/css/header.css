@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--cor-fundo);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: var(--cor-branca);
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 5rem;
+}
+header ul li {
+    list-style: none;
+    padding: 0 1.2rem;
+}
+header ul li a {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.logo {
+    margin-left: 50px;
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    padding: .5rem;
+    font-weight: 700;
+}
