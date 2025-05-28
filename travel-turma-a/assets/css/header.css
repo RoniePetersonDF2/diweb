@@ -27,7 +27,7 @@ header ul li a {
 }
 .logo {
     margin-left: 50px;
-    background-color: var(--cor-principal);
+    background-color: tomato;
     color: var(--cor-fundo);
     padding: .5rem;
     font-weight: 700;
